@@ -1,0 +1,16 @@
+[package]
+name = "voiptool"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.4"
+itertools = "0.13"
+miniz_oxide = "0.7"
+
+speex-safe = "0.6"
+hound = "3.5"
+symphonia = { version = "0.5", features = ["mp3", "isomp4", "aac", "alac"] }
+rubato = "0.15"
+
+clap = { version = "4.5", features = ["derive"] }
