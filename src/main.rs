@@ -38,7 +38,7 @@ enum Commands {
         #[arg(short, long, default_value_t = false)]
         vad: bool,
         /// Enable highpass filter
-        #[arg(short, long, default_value_t = false)]
+        #[arg(short = 'f', long, default_value_t = false)]
         highpass_filter: bool,
         /// Resource revision
         #[arg(short, long, default_value_t = 0x33e)]
